@@ -39,8 +39,8 @@ public class MainPageTest {
     }
 
     public void searchButton(){
-        //mainPage.searchButton.click();
-        System.out.println("КЛАЦ");
+        mainPage.searchButton.click();
+        //System.out.println("КЛАЦ");
     }
 
     @Test
