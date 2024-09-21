@@ -40,7 +40,7 @@ public class MainPageTest {
 
     public void searchButton(){
         mainPage.searchButton.click();
-        //System.out.println("КЛАЦ");
+        System.out.println("КЛАЦ");
     }
 
     @Test
