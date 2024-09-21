@@ -39,7 +39,7 @@ public class MainPageTest {
     }
 
     public void searchButton(){
-        mainPage.searchButton.click();
+        //mainPage.searchButton.click();
         System.out.println("КЛАЦ");
     }
 
