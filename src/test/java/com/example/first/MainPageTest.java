@@ -45,8 +45,8 @@ public class MainPageTest {
 
     @Test
     public void toolsMenu() {
+        $("[aria-label='Close cookies banner']").click();
         mainPage.toolsMenu.click();
-
         $("div[data-test='main-submenu']").shouldBe(visible);
     }
 
